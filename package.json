@@ -1,0 +1,15 @@
+{
+  "name": "TwofilesJS",
+  "version": "0.0.1",
+  "dependencies": {
+
+
+  },
+  "scripts" :
+  {
+    "install": "npm install typescript",
+    "prestart": "node_modules/.bin/tsc -p tsconfig.json",
+    "start": "node second.js"
+  }
+
+}
